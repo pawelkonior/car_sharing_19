@@ -178,6 +178,12 @@ html, body {
 .box {
 }
 
+.box.box--dark {
+    background-color: rgba(40, 39, 44, 1);
+    padding-top: 4.125rem;
+    padding-bottom: 6.25rem;
+}
+
 .section {
     margin-bottom: 6.25rem;
 }
@@ -190,6 +196,11 @@ html, body {
     font-size: 2.1875rem;
     position: relative;
     margin-bottom: 2.5625rem;
+}
+
+.section .section__hdl.section__hdl--secondary {
+    color: var(--secondary-color);
+    margin-bottom: 4.6875rem;
 }
 
 .section .section__hdl:before, .section .section__hdl:after {
@@ -231,10 +242,28 @@ html, body {
     align-items: flex-start;
 }
 
+.section .section__col.section__col--secondary {
+    align-items: center;
+    text-align: center;
+}
+
+.section .section__col.section__col--secondary h3 {
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.section .section__col.section__col--secondary p {
+    color: rgba(178, 178, 178, 1);
+}
+
 .section .section__img {
     width: 100%;
     display: block;
     margin-bottom: .5625rem;
+}
+
+.section .section__img.section__img--secondary {
+    max-width: 10.625rem;
 }
 
 .section .section__text {
